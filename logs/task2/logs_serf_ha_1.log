@@ -1,0 +1,13 @@
+[s6-init] making user provided files available at /var/run/s6/etc...exited 0.
+[s6-init] ensuring user provided files have correct perms...exited 0.
+[fix-attrs.d] applying ownership & permissions fixes...
+[fix-attrs.d] done.
+[cont-init.d] executing container initialization scripts...
+[cont-init.d] done.
+[services.d] starting services
+[services.d] done.
+[WARNING] 356/163837 (157) : Server nodes/s1 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 1 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+[WARNING] 356/163838 (157) : Server nodes/s2 is DOWN, reason: Layer4 connection problem, info: "Connection refused", check duration: 0ms. 0 active and 0 backup servers left. 0 sessions active, 0 requeued, 0 remaining in queue.
+[ALERT] 356/163838 (157) : backend 'nodes' has no server available!
+[WARNING] 356/163841 (157) : Server nodes/s1 is UP, reason: Layer7 check passed, code: 200, info: "OK", check duration: 5ms. 1 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
+[WARNING] 356/163842 (157) : Server nodes/s2 is UP, reason: Layer7 check passed, code: 200, info: "OK", check duration: 2ms. 2 active and 0 backup servers online. 0 sessions requeued, 0 total in queue.
